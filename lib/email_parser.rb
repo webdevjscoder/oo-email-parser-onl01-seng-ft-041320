@@ -12,7 +12,7 @@ class EmailAddressParser
   end 
   
   def parse
-    parse_email = @email.split(", ")
-    parse_email
+    # splits into array [""avi@test.com arel@test.com""]
+    parse_email = @email.split(" ")
   end
 end
