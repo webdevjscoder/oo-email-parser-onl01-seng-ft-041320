@@ -14,5 +14,6 @@ class EmailAddressParser
   def parse
     # splits into array [""avi@test.com arel@test.com""]
     parse_email = @email.split(" ")
+    parse_email
   end
 end
