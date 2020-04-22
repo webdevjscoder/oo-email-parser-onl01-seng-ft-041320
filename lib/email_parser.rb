@@ -14,7 +14,7 @@ class EmailAddressParser
   def parse
     # splits into array [""avi@test.com arel@test.com""]
     split_emails = @email.split(/,/)
-    parse_email = split_emails[0]
+    parse_email = split_emails[0] && split_emails[1]
     parse_email
   end
 end
