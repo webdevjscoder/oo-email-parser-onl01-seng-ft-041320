@@ -12,9 +12,9 @@ class EmailAddressParser
   end 
   
   def parse
-    # splits into array ["avi@test.com arel@test.com"]
+    # splits into array ["avi@test.com, arel@test.com"]
     split_emails = @email.split("")
-    parse_email = split_emails[]
+    parse_email = split_emails[12].remove
     # parse_email = split_emails
     # parse_email
   end
