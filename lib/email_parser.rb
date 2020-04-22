@@ -7,10 +7,11 @@ class EmailAddressParser
   attr_accessor :email
   
   def initialize(email)
+    # @email becomes CSV email "avi@test.com, arel@test.com"
     @email = email
   end 
   
-  # def parse(email)
-  #   @email = email.parse
-  # end
+  def parse
+    
+  end
 end
